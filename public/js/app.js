@@ -21192,21 +21192,31 @@ var render = function() {
         }
       },
       [
-        _c("div", { staticClass: "card-body hvr-grow-shadow no-padding" }, [
-          _c(
-            "div",
-            { staticClass: "card card-default", attrs: { id: "card-advance" } },
-            [
-              _c("div", { staticClass: "card-body" }, [
-                _c("h3", [
-                  _c("span", { staticClass: "semi-bold" }, [
-                    _vm._v(_vm._s(_vm.question.name))
+        _c(
+          "div",
+          {
+            staticClass: "card-body hvr-grow-shadow no-padding",
+            staticStyle: { cursor: "pointer" }
+          },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "card card-default",
+                attrs: { id: "card-advance" }
+              },
+              [
+                _c("div", { staticClass: "card-body" }, [
+                  _c("h3", [
+                    _c("span", { staticClass: "semi-bold" }, [
+                      _vm._v(_vm._s(_vm.question.name))
+                    ])
                   ])
                 ])
-              ])
-            ]
-          )
-        ])
+              ]
+            )
+          ]
+        )
       ]
     )
   ])
